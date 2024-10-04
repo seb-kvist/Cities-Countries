@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cities and Countries</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <div class="mainWrapper">
+        <div class="secondaryWrapper">
+            <h1>Länder</h1>
+            <ul id="countryList"></ul>
+
+            <button id="visitedCitiesBtn">Se besökta städer</button>
+            <div id="visitedCitiesBox">
+                <h2>Dina besökta städer:</h2>
+                <ul id="visitedCitiesList"></ul>
+                <button id="clearHistory">Rena din historik</button>
+                <p id="clearHistoryMsg"></p>
+            </div>
+
+            <h2 id="cityHeader">Städer</h2>
+            <ul id="cityList"></ul>
+
+            <div id="cityDetail"></div>
+                <p id="visitBtnMsg"></p>
+                <p id="visitBtnMsgError"></p>
+        
+            <script src="script.js"></script>
+        </div>
+    <div>
 </body>
 </html>
