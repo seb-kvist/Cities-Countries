@@ -1,4 +1,4 @@
-# Cities and Countries Web Application
+# Cities and Countries
 
 ## Overview
 This web application allows users to explore countries and cities. Users can click on a country to see a list of cities within it, view detailed information about a city, and mark cities they have visited. The visited cities are saved in the browser's local storage and can be viewed and cleared by the user.
