@@ -22,7 +22,7 @@ This web application allows users to explore countries and cities. Users can cli
 
 1. Clone this repository:
 ```
-git clone <repository-url>
+git clone <[repository-url](https://github.com/seb-kvist/Cities-Countries.git)>
 ```
 2. Open the `index.html` file in your web browser.
 
